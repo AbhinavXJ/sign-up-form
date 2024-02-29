@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.cont{
+    display: flex;
+    background-color: black;
+}
+
+
+.left{
+    margin-left: 15%;
+    width: 35%;
+
+    position: relative;
+}
+
+#img1{
+    width: 100%;
+    height: 100%;
+}
+.od{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 15%;
+    top: 25%;
+    width: 100%;
+
+    display: flex;
+
+    
+}
+#img2{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 30%;
+    width: 20%;
+
+
+    
+}
+
+.pho{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    color: white;
+
+
+
+}
+a{
+    color: white;
+}
+#tag{
+    position: relative;
+    font-family: 'MyFont';
+    left: 50%;
+    font-size:10vh;
+    bottom: 50%;
+    color:white;
+    opacity: 100%;
+
+
+    
+
+
+}
+.right{
+    margin-right: 15%;
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+
+}
+.r1{
+height: 35%;
+position: relative;
+background-color:whitesmoke;
+}
+.r2{
+    height:30%;
+    background-color: white;
+
+
+}
+.r3{
+ height: 35%;
+ background-color: whitesmoke;
+ position: relative;
+
+
+}
+.r01{
+    font-weight: bold;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    top: 40%;
+    
+
+}
+#r21{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 7%;
+}
+
+.r32{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    left: 5%;
+}
+#r321{
+
+font-size: 1.2rem;
+}
+#r322{
+    color: #596D48;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+
+}
+#btn{
+    position: absolute;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    left: 5%;
+    top: 10%;
+    font-size: 1.4rem;
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+#r11{
+    font-size: 1.5rem;
+    line-height: 0px;
+
+
+}
+#r12{
+    font-size: 1.5rem;
+    line-height: 0px;
+
+}
+#r13{
+    font-size: 1.5rem;
+    line-height: 0px;
+
+}
+#r14{
+    font-size: 1.5rem;
+    line-height: 3rem;
+
+}
+
+.i1{
+    display: flex;
+    margin-bottom: 3%;
+    
+}
+.i11{
+    margin-right:10%;
+    margin-left: 7%;
+}
+.i2{
+    display: flex;
+    margin-bottom: 3%;
+
+    
+}
+.i21{
+    margin-right:10%;
+    margin-left: 7%;
+}
+.i3{
+    display: flex;
+    position: relative;
+    
+}
+.i31{
+    margin-right:10%;
+    margin-left: 7%;
+}
+
+label{
+    font-size: 0.8rem;
+    color: rgb(36, 32, 32);
+
+}
+
+input:focus{
+    border-color: blue;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline: none;
+
+    
+}
+input{
+    border-color: #E5E7EB;
+    border-radius: 0.1px;
+    width: 110%;
+    height: 60%;
+}
+
+#pswd{
+    border-color: red;
+    outline: none;
+
+}
+#cpswd{
+    border-color: red;
+    outline: none;
+
+}
+#pss{
+    color: red;
+    position: absolute;
+    left: 7%;
+    top:90%;
+}
+
+
