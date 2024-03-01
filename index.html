@@ -39,7 +39,7 @@
 
                 <p id="r21">Let's do this!</p>
 
-                <form action="nigga/path" method="post">
+                <form action="nigga/path" method="post" novalidate>
 
                 <div class="i1">
                 <div class="i11">
@@ -72,7 +72,9 @@
                     <label id="i31" for="pswd">PASSWORD</label>
 
                     <br>
-                    <input type="password" name="pswd" id="pswd">
+                    <input type="password" name="pswd" id="pswd" required>
+                    <span class="error" aria-live="polite"></span>
+
 
                 </div>
                 <p id="pss">*password do not match</p>
@@ -81,7 +83,7 @@
                 <div class="i32">
                     <label id="i32" for="pswd">CONFIRM PASSWORD</label>
                     <br>
-                    <input type="password" name="cpswd" id="cpswd">
+                    <input type="password" name="cpswd" id="cpswd" requiired>
                 </div>
 
                 </div>

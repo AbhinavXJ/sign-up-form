@@ -210,13 +210,18 @@ input:focus{
     
 }
 input{
-    border-color: #E5E7EB;
+    outline: none;
+    border-color: silver;
     border-radius: 0.1px;
     width: 110%;
     height: 60%;
+    box-sizing: border-box;
+    appearance: none;
+    margin: 0;
+
 }
 
-#pswd{
+/* #pswd{
     border-color: red;
     outline: none;
 
@@ -225,12 +230,19 @@ input{
     border-color: red;
     outline: none;
 
-}
+} */
 #pss{
     color: red;
     position: absolute;
     left: 7%;
     top:90%;
 }
+
+input:required{
+    outline: none;
+}
+
+
+
 
 
